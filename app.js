@@ -41,14 +41,27 @@
 // 4. Verificar se é maior de 10
 // Peça ao usuário para inserir um número e diga se ele é maior que 10 ou menor ou igual a 10.
 
+// let numero = Number(prompt("Insira um valor: "))
+
+// if(numero > 10){
+//     alert("O número inserido é maior que 10")
+// }else if(numero < 10){
+//     alert("O número inserido é menor que 10")
+// }else{
+//     alert("Os números são iguais")
+// }
+
+// 5. Verificar se é maior que 100
+// Peça ao usuário para inserir um número e diga se ele é maior que 100 ou menor ou igual a 100.
+
 let numero = Number(prompt("Insira um valor: "))
 
-if(numero > 10){
-    alert("O número inserido é maior que 10")
-}else if(numero < 10){
-    alert("O número inserido é menor que 10")
+if(numero > 100){
+    alert("O número inserido é maior que 100")
+}else if(numero < 100){
+    alert("O número inserido é menor que 100")
 }else{
-    alert("Os números são iguais")
+    alert("O número inserido é igual a 100")
 }
 
 // LISTA HARD 
