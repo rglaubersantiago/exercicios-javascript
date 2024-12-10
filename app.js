@@ -1,5 +1,18 @@
 // Função toFixed(2) - diminui as casas decimáis.
 
+//1. Verificar se é positivo ou negativo
+//Peça ao usuário para inserir um número e diga se ele é positivo ou negativo.
+
+let numero = Number(prompt("Insira um número: "))
+
+if(numero > 0){
+    alert("O número inserido é positivo")
+}else if(numero < 0){
+    alert("O número inserido é negativo")
+}else{
+    alert("O número inserido é zero")
+}
+
 // LISTA HARD 
 
 // 1. Escreva	 um	 programa	 para	 ler	 2	 valores	 (considere	 que	 	 não	 serão	
@@ -31,14 +44,14 @@
 //− Triângulo	Isóscele:	possui	2	lados	iguais.	
 //− Triângulo	Escaleno:	possui	3	lados	diferentes.
 
-let lado1 = "24"
-let lado2 = "25"
-let lado3 = "23"
+// let lado1 = "24"
+// let lado2 = "25"
+// let lado3 = "23"
 
-if(lado1 === lado2 && lado1 === lado3 && lado2 === lado3){
-    console.log("Triangulo Equilatero")
-}else if (lado1 !== lado2 && lado1 !== lado3 && lado2 !== lado3){
-    console.log("Triangulo Escaleno")
-}else {
-    console.log("Triangulo Isóscele")
-}
+// if(lado1 === lado2 && lado1 === lado3 && lado2 === lado3){
+//     console.log("Triangulo Equilatero")
+// }else if (lado1 !== lado2 && lado1 !== lado3 && lado2 !== lado3){
+//     console.log("Triangulo Escaleno")
+// }else {
+//     console.log("Triangulo Isóscele")
+// }
