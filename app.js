@@ -30,12 +30,25 @@
 // 3. Verificar se é múltiplo de 3
 // Peça ao usuário para inserir um número e diga se ele é múltiplo de 3.
 
-let numero = Number(prompt("Insira um  valor: "))
+// let numero = Number(prompt("Insira um  valor: "))
 
-if(numero % 3 === 0){
-    alert("O valor inserido é múltiplo de três")
+// if(numero % 3 === 0){
+//     alert("O valor inserido é múltiplo de três")
+// }else{
+//     alert("O valor inserido não é múltiplo de três")
+// }
+
+// 4. Verificar se é maior de 10
+// Peça ao usuário para inserir um número e diga se ele é maior que 10 ou menor ou igual a 10.
+
+let numero = Number(prompt("Insira um valor: "))
+
+if(numero > 10){
+    alert("O número inserido é maior que 10")
+}else if(numero < 10){
+    alert("O número inserido é menor que 10")
 }else{
-    alert("O valor inserido não é múltiplo de três")
+    alert("Os números são iguais")
 }
 
 // LISTA HARD 
