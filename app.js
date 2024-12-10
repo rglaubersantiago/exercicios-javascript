@@ -3,14 +3,28 @@
 //1. Verificar se é positivo ou negativo
 //Peça ao usuário para inserir um número e diga se ele é positivo ou negativo.
 
-let numero = Number(prompt("Insira um número: "))
+// let numero = Number(prompt("Insira um número: "))
 
-if(numero > 0){
-    alert("O número inserido é positivo")
-}else if(numero < 0){
-    alert("O número inserido é negativo")
+// if(numero > 0){
+//     alert("O número inserido é positivo")
+// }else if(numero < 0){
+//     alert("O número inserido é negativo")
+// }else{
+//     alert("O número inserido é zero")
+// }
+
+// 2. Verificar se é maior ou menor
+// Peça ao usuário para inserir dois números e diga qual é maior ou se são iguais.
+
+let numberone = Number(prompt("Insira o primeiro valor: "))
+let numbertow = Number(prompt("Insira o segundo valor: "))
+
+if(numberone > numbertow){
+    alert("O primeiro valor inserido é maior")
+}else if(numberone < numbertow){
+    alert("O segundo valor inserido é maior")
 }else{
-    alert("O número inserido é zero")
+    alert("Os dois valores são iguais")
 }
 
 // LISTA HARD 
