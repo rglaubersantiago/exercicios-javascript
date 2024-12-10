@@ -16,15 +16,26 @@
 // 2. Verificar se é maior ou menor
 // Peça ao usuário para inserir dois números e diga qual é maior ou se são iguais.
 
-let numberone = Number(prompt("Insira o primeiro valor: "))
-let numbertow = Number(prompt("Insira o segundo valor: "))
+// let numberone = Number(prompt("Insira o primeiro valor: "))
+// let numbertow = Number(prompt("Insira o segundo valor: "))
 
-if(numberone > numbertow){
-    alert("O primeiro valor inserido é maior")
-}else if(numberone < numbertow){
-    alert("O segundo valor inserido é maior")
+// if(numberone > numbertow){
+//     alert("O primeiro valor inserido é maior")
+// }else if(numberone < numbertow){
+//     alert("O segundo valor inserido é maior")
+// }else{
+//     alert("Os dois valores são iguais")
+// }
+
+// 3. Verificar se é múltiplo de 3
+// Peça ao usuário para inserir um número e diga se ele é múltiplo de 3.
+
+let numero = Number(prompt("Insira um  valor: "))
+
+if(numero % 3 === 0){
+    alert("O valor inserido é múltiplo de três")
 }else{
-    alert("Os dois valores são iguais")
+    alert("O valor inserido não é múltiplo de três")
 }
 
 // LISTA HARD 
