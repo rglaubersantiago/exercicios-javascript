@@ -54,15 +54,28 @@
 // 5. Verificar se é maior que 100
 // Peça ao usuário para inserir um número e diga se ele é maior que 100 ou menor ou igual a 100.
 
-let numero = Number(prompt("Insira um valor: "))
+// let numero = Number(prompt("Insira um valor: "))
 
-if(numero > 100){
-    alert("O número inserido é maior que 100")
-}else if(numero < 100){
-    alert("O número inserido é menor que 100")
-}else{
-    alert("O número inserido é igual a 100")
+// if(numero > 100){
+//     alert("O número inserido é maior que 100")
+// }else if(numero < 100){
+//     alert("O número inserido é menor que 100")
+// }else{
+//     alert("O número inserido é igual a 100")
+// }
+
+// 6. Escolha entre "Sim" e "Não"
+// Peça ao usuário para responder "Sim" ou "Não". Se ele responder "Sim", imprima "Você escolheu sim". 
+// Caso contrário, imprima "Você escolheu não".
+
+let resposta = prompt("Escolha uma resposta: SIM ou NÃO").toLocaleLowerCase()
+
+if(resposta === "sim"){
+    alert("Você escolheu sim!")
+}else {
+    alert("Você escolheu não!")
 }
+
 
 // LISTA HARD 
 
