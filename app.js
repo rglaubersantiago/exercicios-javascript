@@ -68,14 +68,74 @@
 // Peça ao usuário para responder "Sim" ou "Não". Se ele responder "Sim", imprima "Você escolheu sim". 
 // Caso contrário, imprima "Você escolheu não".
 
-let resposta = prompt("Escolha uma resposta: SIM ou NÃO").toLocaleLowerCase()
+// let resposta = prompt("Escolha uma resposta: SIM ou NÃO").toLocaleLowerCase()
 
-if(resposta === "sim"){
-    alert("Você escolheu sim!")
-}else {
-    alert("Você escolheu não!")
-}
+// if(resposta === "sim"){
+//     alert("Você escolheu sim!")
+// }else {
+//     alert("Você escolheu não!")
+// }
 
+// 7. Verificar se é divisível por 5
+// Peça ao usuário para inserir um número e diga se ele é divisível por 5.
+
+// let numero = Number(prompt("Insira um número: "))
+
+// if(numero % 5 === 0){
+//     alert("O número é divisível por 5")
+// }else{
+//     alert("O número não é divisível por 5")
+// }
+
+// 8. Verificar idade de entrada
+// Peça ao usuário para inserir a idade e diga se ele pode votar (idade >= 16) ou não pode votar (idade < 16).
+
+// https://www.computersciencemaster.com.br/exercicios-if-e-else/#google_vignette
+
+// Fácil 1- Faça um programa que peça dois números e verifique (usando if e else) e imprima o maior deles 
+
+// let numberone = Number(prompt("Insira o primeiro valor: "))
+// let numbertwo = Number(prompt("Insira o segundo valor: "))
+
+// if(numberone > numbertwo){
+//     alert(`${numberone} foi o maior número inserido.`)
+// }else{
+//     alert(`${numbertwo} foi o maior valor inserido.`)
+// }
+
+// Fácil 2- Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo
+
+// let valor = Number(prompt("Insira um valor: "))
+
+// if(valor < 0){
+//     alert(`Valor ${valor} é negativo.`)
+// }else if(valor > 0){
+//     alert(`Valor ${valor} é positivo.`)
+// }else{
+//     alert(`O valor é ${valor}.`)
+// }
+
+// Fácil 3- Faça um programa que verifique (usando if e else) se uma letra digitada é “F” ou “M”. Conforme a letra escrever: F – Feminino, M- Masculino, Sexo inválido. 
+
+// let letra = prompt("Escolha F ou M para escolher o sexo: F - Feminino ou M - Masculino: ").toLocaleUpperCase()
+
+// if(letra === "F"){
+//     alert(`Letra escolhida ${letra} - Feminino.`)
+// }else if(letra === "M"){
+//     alert(`Letra escolhida ${letra} - Masculino`)
+// }else{
+//     alert("Sexo inválido!")
+// }
+
+// Fácil 4- Faça um programa que verifique (usando if e else) se uma letra digitada é vogal ou consoante. 
+
+// let letra = prompt("Insira uma letra: ").toLocaleLowerCase()
+
+// if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
+//     alert(`Você digitou a vogal ${letra}`)
+// }else{
+//     alert(`Você digitou a consoante ${letra}`)
+// }
 
 // LISTA HARD 
 
