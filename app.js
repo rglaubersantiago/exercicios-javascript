@@ -179,3 +179,24 @@
 // }else {
 //     console.log("Triangulo Isóscele")
 // }
+
+// Calculadora
+
+let numero1 = Number(prompt("Digite Número 1: "))
+let numero2 = Number(prompt("Digite Número 2: "))
+
+if(operacao === "+"){
+    let soma = numero1 + numero2
+    alert(`O resultado da soma é: ${soma}`)
+}else if(operacao === "-"){
+    let sub = numero1 - numero2
+    alert(`O resultado da subtração é: ${sub}`)
+}else if(operacao === "*"){
+    let mult = numero1 * numero2
+    alert(`O resultado da multiplicação é: ${mult}`)
+}else if(operacao === "/"){
+    let div = numero1 / numero2
+    alert(`O resultado da divisão é: ${div}`)
+}else {
+    alert("Digite um número válido")
+}
